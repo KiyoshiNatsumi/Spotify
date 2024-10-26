@@ -1,0 +1,112 @@
+Sure! Here's the translation to Malay:
+
+/* MARK: Settings */
+
+patching = "Patching";
+lyrics = "Lirik";
+customization = "Penyesuaian";
+
+common_issues_tip_title = "Mengalami masalah?";
+
+common_issues_tip_message = "Jika anda menghadapi masalah, seperti tidak dapat memainkan lagu, semak";
+common_issues_tip_button = "Masalah Umum";
+
+reset_data = "Reset Data";
+reset_data_description = "Padam data yang disimpan dalam cache dan mulakan semula aplikasi.";
+
+checking_for_update = "Memeriksa kemas kini...";
+update_available = "Kemas kini tersedia";
+
+restart_is_required_description = "Setelah pengubahsuaian, aplikasi perlu dimulakan semula.";
+
+// Patching
+
+do_not_patch_premium = "Jangan patch Premium";
+patching_description = "Tweaks ini mencegat permintaan untuk memuatkan data pengguna, mendeserialisasikan dan mengubah parameter secara langsung.
+
+Jika anda mempunyai langganan Premium aktif, anda boleh mengaktifkan Jangan patch Premium. Tweaks ini tidak akan mengubah data atau menghadkan penggunaan fungsi Premium di sisi pelayan. Anda perlu memulakan semula aplikasi selepas mengubah tetapan ini.";
+
+overwrite_configuration = "Tulis Semula Konfigurasi";
+overwrite_configuration_description = "Gantikan konfigurasi jauh dengan pemindahan dari yang Premium. Ini mungkin menyelesaikan beberapa masalah, seperti kemunculan iklan, tetapi tidak dijamin.";
+
+// Lyrics
+
+do_not_replace_lyrics = "Jangan ganti lirik";
+lyrics_source = "Sumber Lirik";
+lyrics_source_description = "Anda boleh memilih sumber lirik yang anda suka.
+
+Genius: Menyediakan lirik dengan kualiti terbaik, untuk bilangan lagu yang paling banyak dan mengemas kini lebih cepat. Tidak diselaraskan dengan lagu dan tidak akan pernah.
+
+LRCLIB: Perkhidmatan yang paling terbuka, menawarkan lirik yang diselaraskan. Namun, lirik untuk banyak lagu mungkin tidak ada.
+
+Musixmatch: Perkhidmatan yang digunakan oleh Spotify. Menyediakan lirik yang diselaraskan untuk banyak lagu, tetapi anda memerlukan token pengguna untuk menggunakan sumber ini.";
+lyrics_additional_info = "Jika tweaks tidak dapat mencari lagu atau memproses lirik, anda akan melihat mesej \"Tidak dapat memuatkan lirik untuk lagu ini\". Lirik mungkin tidak betul untuk beberapa lagu ketika menggunakan Genius disebabkan cara tweaks mencari lagu. Saya telah memastikan ia berfungsi dalam kebanyakan kes.";
+petitlyrics_description = "PetitLyrics: Menyediakan banyak lirik yang diselaraskan dalam bahasa Jepun dan beberapa bahasa antarabangsa.";
+
+musixmatch_user_token = "Token Pengguna Musixmatch";
+user_token_placeholder = "Masukkan Token Pengguna atau Tampal Maklumat Debug";
+
+enter_user_token = "Masukkan Token Pengguna";
+enter_user_token_message = "Untuk menggunakan Musixmatch, anda perlu mendapatkan token pengguna anda dari aplikasi rasmi. Muat turun Musixmatch dari App Store, daftar, kemudian pergi ke Tetapan > Sokongan > Salin maklumat debug dan tampal di sini. Anda juga boleh mengekstrak token menggunakan MITM.";
+
+genius_fallback = "Fallback Genius";
+genius_fallback_description = "Muat naik lirik dari Genius jika terdapat masalah dengan %@.";
+
+show_fallback_reasons = "Tunjukkan Sebab Fallback";
+
+romanized_lyrics = "Lirik Romanisasi";
+romanized_lyrics_description = "Tunjukkan lirik romanisasi untuk Jepun, Korea, dan Cina.";
+
+musixmatch_language = "Bahasa Lirik Musixmatch";
+musixmatch_language_description = "Anda boleh memasukkan kod bahasa 2 huruf untuk Musixmatch dan melihat lirik terjemahan di Musixmatch jika tersedia.";
+
+// UI
+
+lyrics_background_color_section = "Warna Latar Belakang Lirik Lagu";
+lyrics_background_color_section_description = "Jika anda mengaktifkan Tunjukkan Warna Asal, lirik akan muncul dalam warna asal Spotify untuk lagu yang memilikinya.
+
+Anda boleh menetapkan warna statik atau faktor normalisasi berdasarkan warna yang diekstrak dari kulit lagu. Faktor ini menentukan sejauh mana warna gelap dicerahkan dan warna terang gelap. Secara amnya, anda akan melihat warna yang lebih cerah dengan faktor normalisasi yang lebih tinggi.";
+
+display_original_colors = "Tunjukkan Warna Asal";
+
+use_static_color = "Gunakan Warna Statik";
+static_color = "Warna Statik";
+
+color_normalization_factor = "Faktor Normalisasi Warna";
+dark_popups = "Pop-up Gelap";
+
+/* MARK: Premium PopUps */
+
+have_premium_popup = "Nampaknya anda mempunyai langganan Premium aktif, jadi tweaks ini tidak akan mengubah data atau menghadkan penggunaan fungsi Premium di sisi pelayan. Anda boleh menguruskan pilihan ini dalam tetapan EeveeSpotify.";
+
+high_audio_quality_popup = "Kualiti audio yang sangat tinggi diuruskan di sisi pelayan dan tidak tersedia dengan tweaks ini.";
+playlist_downloading_popup = "Muat turun playlist secara asli diuruskan di sisi pelayan dan tidak tersedia dengan tweaks ini. Anda masih boleh memuat turun episod podcast.";
+download_local_playlist = "Muat turun playlist tempatan";
+
+/* MARK: Lyrics */
+
+fallback_attribute = "Fallback";
+romanized_attribute = "Romanisasi";
+
+musixmatch_unauthorized_popup = "Tweaks ini tidak dapat memuatkan lirik dari Musixmatch kerana ralat Kebenaran. Semak atau kemas kini token Musixmatch anda. Jika anda menggunakan iPad, anda perlu mendapatkan token dari aplikasi Musixmatch untuk iPad.";
+musixmatch_restricted_popup = "Tweaks ini tidak dapat memuatkan lirik dari Musixmatch kerana ia terhad. Mungkin ini adalah masalah hak cipta disebabkan alamat IP di A.S., jadi anda perlu menukarnya jika anda berada di A.S. atau menggunakan VPN.";
+
+// Errors Titles
+
+no_such_song = "Tiada lagu ditemui";
+musixmatch_restricted = "Terhad";
+invalid_musixmatch_token = "Tidak dibenarkan";
+decoding_error = "Ralat penyahkodan";
+no_current_track = "Tiada trek semasa";
+unknown_error = "Ralat tidak diketahui";
+
+// Instrumental Titles
+
+song_is_instrumental = "Lagu ini adalah instrumental.";
+let_the_music_play = "Biarkan muzik dimainkan...";
+
+// liked songs title, should match official spotify loc
+
+liked_songs = "Lagu yang anda suka";
+
+contributors = "Sumbangan";
