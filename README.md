@@ -3,6 +3,7 @@
 # EeveeSpotify
 
 This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.
+![Premium](Images/premium.png)
 
 ## The History
 
@@ -58,5 +59,9 @@ LTC: `ltc1qhj3ts8ek0lklqfydxu90ku5d5efq5cw5ww7u9g`
 XMR: `86QVbA9XLJ9WznTDRgA7dbf8UV9rsR5KB1UxJCPtdwQqd9rv9YZNRkTJvesGzM13khL9Do1BRb5biUTuDZ5YqnuQF8JrJYk`
 
 ***
-
 To open Spotify links in sideloaded app, use [OpenSpotifySafariExtension](https://github.com/BillyCurtis/OpenSpotifySafariExtension). Remember to activate it and allow access in Settings > Safari > Extensions.
+***
+
+### Star History
+
+[![Star History](https://api.lucabubi.me/chart?username=whoeevee&repository=EeveeSpotify&color=green)](https://github.com/lucabubi/star-history)
