@@ -3,7 +3,6 @@
 # EeveeSpotify
 
 This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.
-![Premium](Images/premium.png)
 
 ## The History
 
@@ -40,7 +39,7 @@ Upon login, Spotify fetches user data and caches it in the `offline.bnk` file in
 
 The tweak patches this file while initializing; Spotify loads it and assumes you have Premium. To be honest, it doesn't really patch due to challenges with dynamic length and varied bytes. The tweak extracts the username from the current `offline.bnk` file and inserts it into `premiumblank.bnk` (a file containing all premium values preset), replacing `offline.bnk`. Spotify may reload user data, and you'll be switched to the Free plan. When this happens, you'll see a popup with quick restart app and reset data actions.
 
-![Hex](Images/hex.png)
+<img src="Images/hex.png" alt="hex" width="684" height="432" /> <img src="Images/premium.png" alt="premium" width="280" height="366" />
 
 Tweak also sets `trackRowsEnabled` in `SPTFreeTierArtistHubRemoteURLResolver` to `true`, so Spotify loads not just track names on the artist page. It can stop working just like Spotilife, but so far, it works on the latest Spotify 8.9.## (Spotilife also patches `offline.bnk`, however, it changes obscure bytes that do nothing on new versions). 
 
