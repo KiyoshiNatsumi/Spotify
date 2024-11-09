@@ -130,6 +130,32 @@
                 "roles": [
                     "Brazil"
                 ]
+            },
+            {
+                "username": "LPCC12",
+                "roles": [
+                    "Portuguese"
+                ]
+            },
+            {
+                "username": "dvirzxc",
+                "roles": [
+                    "Catalan"
+                ]
+            },
+            {
+                "username": "zrvpuna",
+                "roles": [
+                    "Japanese"
+                ]
+            },
+            {
+                "username": "RikyPy",
+                "roles": [
+                    "Arabic (Egypt, DeepL)",
+                    "Hungarian (DeepL)",
+                    "Romanian"
+                ]
             }
         ]
     }
